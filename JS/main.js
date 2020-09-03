@@ -4,9 +4,11 @@ $('.bxslider').bxSlider({
     auto: true,
     autoControls: false,
     stopAutoOnClick: false,
-    pager: true,
-    slideWidth: 1400,
-     //controls: false
+    pager: false,
+    slideWidth: 1200,
+    controls: true,
+    mode: 'fade',
+    randomStart: true
   });
 
   $('#btn').click(() =>{
