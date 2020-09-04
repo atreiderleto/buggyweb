@@ -133,16 +133,16 @@
 
 @keyframes showText{
     0%{
-        transform: translateY(-50%) scale(2,2);
+        transform: translateX(-50%) scale(2,2);
         opacity: 1;
             
         }
     50%{
-      transform: translateY(50%) scale(2,2);
+      transform: translateX(50%) scale(2,2);
       opacity: 1;
     }
     75%{
-      transform: translateY(-50%) scale(2,2);
+      transform: translateX(-50%) scale(2,2);
       text-shadow: none;
       color: transparent;
       opacity: 0;
