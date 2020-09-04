@@ -5,10 +5,11 @@ $('.bxslider').bxSlider({
     autoControls: false,
     stopAutoOnClick: false,
     pager: false,
-    slideWidth: 1200,
-    controls: true,
+    slideWidth: 1000,
+    controls: false,
     mode: 'fade',
-    randomStart: true
+    randomStart: true,
+  
   });
 
   $('#btn').click(() =>{

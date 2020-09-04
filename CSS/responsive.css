@@ -1,3 +1,4 @@
+
 @media (max-width: 1038px){
 
     .open{
@@ -86,6 +87,10 @@
     #social-footer img{
         width: 30px;
         height: 30px;
+    }
+
+    .bx-wrapper img{
+        height: auto ;
     }
 
 }

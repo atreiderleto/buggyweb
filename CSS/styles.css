@@ -138,11 +138,25 @@
 
 /* BX SLIDER STYLES */
 
-.bx-wrapper {
-  /*  width: 100%; */
-    margin-top: 40px;
-    /*margin-left: 100px; */
+#slider{
+    display: flex;
+    flex-flow: column  wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.bx-wrapper{
+    margin-left: auto;
+    margin-right: auto;
     
+}
+.bx-wrapper img {
+
+    width: 100%;
+    display: block;
+    height: 600px;
+
 }
 
 /* FOOTER STYLES */
